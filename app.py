@@ -139,7 +139,7 @@ app.layout = html.Div([
     html.Div(id="output"),
 
     html.Div([
-        dcc.Markdown("Created by ")
+        dcc.Markdown("Created by Henrik Sergoyan and Grigor Bezirganyan: github.com/bezirganyan/House_price_predictor")
     ])
 ], style={'display': 'inline-block', 'width': '120vh', 'margin-left': '35vh', 'margin-right': '35vh'})
 
