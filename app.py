@@ -86,7 +86,7 @@ app.layout = html.Div([
 
     html.Div([
         dcc.Markdown(dedent("Please set the approximate distance range from your home to nearest"
-                            " **Public Transport Station** (km)"))
+                            " **Public Transportation Station** (km)"))
     ], style={'display': 'inline-block', 'width': '100%', 'margin': '1.5vh'}),
     html.Div([
         dcc.RangeSlider(
@@ -110,7 +110,7 @@ app.layout = html.Div([
             id='transport_distance'
         )], style={'display': 'inline-block', 'width': '100%', 'margin': '1.5vh'}),
     html.Div([
-        dcc.Markdown(dedent("Please input the approximate number of **Shopping Malls** within 2 km from your house"))
+        dcc.Markdown(dedent("Please input the approximate number of **Shopping Malls** within 2 km from the  house"))
     ], style={'display': 'inline-block', 'width': '100%', 'margin': '1.5vh'}),
     html.Div([
         dcc.Input(
